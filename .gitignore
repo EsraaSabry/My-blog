@@ -1,7 +1,21 @@
 # Python
+# *.pyc
+# *~
+# __pycache__
+*.log
+
+*.pot
+
 *.pyc
-*~
-__pycache__
+
+*/*/*/__pycache__/
+
+*/*/__pycache__/
+
+*/__pycache__/
+
+
+
 
 # Env
 .env
@@ -30,3 +44,8 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 *.code-workspace
+
+
+
+
+
